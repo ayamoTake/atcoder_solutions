@@ -1,5 +1,7 @@
 # ABC 372 D - Building
 
+https://atcoder.jp/contests/abc372/tasks/abc372_d
+
 ## 問題文
 
 ビル 1, ビル 2, …, ビル $N$ の $N$ 棟のビルがこの順で一列に並んでいます。ビル $i (1≤i≤N)$ の高さは $H_i$ です。
