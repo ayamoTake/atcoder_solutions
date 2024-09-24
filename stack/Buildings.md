@@ -28,9 +28,9 @@
 ここで, 数列 $J_i$ を条件を満たす $j (\gt i)$ を昇順に並べた数列とする.
 条件よりに対して, 以下が成り立つ:
 
-1. $\forall k \in \{1, ..., |J_i| - 1\} , H_{J_{i, k}} \lt H_{J_{i, k+1}}$
-2. $\forall j \in J_{i + 1} , H_j \lt H_{i + 1} \Leftarrow j \notin J_i$
-3. $\forall j \in J_{i + 1} , H_j \gt H_{i + 1} \Leftarrow j \in J_i$
+1. $\forall k \in \{1, ..., |J_i| - 1\} ,\quad H_{J_{i, k}} \lt H_{J_{i, k+1}}$
+2. $\forall j \in J_{i + 1} ,\quad H_j \lt H_{i + 1} \Rightarrow j \notin J_i$
+3. $\forall j \in J_{i + 1} ,\quad H_j \gt H_{i + 1} \Rightarrow j \in J_i$
 
 これらを用いることで, 以下の方法で解を得られる:
 
