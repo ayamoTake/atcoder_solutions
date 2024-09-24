@@ -36,19 +36,19 @@
 
 $J_{i + 1}$ をスタックとして保持し, $1.$ より, 常にスタックの先頭と $H_{i + 1}$ 比較すればよい.
 
-```math
-\begin{flushleft}
-\text{
-$i \in { n - 2 ,..., 0 }$
-while stack が空でない
-    $j := stack$の先頭
-    if (h[j] > h[i + 1]) 
-        pop stack
-    else 
-        break
-stack := stack \cup \{i + 1\}
-ans[i] = stackのsize()
-}
-\end{flushleft}
-```
 
+```math
+\begin{flalign}
+\text{
+$i \in \{ n - 2 ,..., 0 \}$    \\
+while stack が空でない         \\
+    $j := stack$の先頭         \\
+    if (h[j] > h[i + 1])       \\
+        pop stack              \\
+    else                       \\
+        break                  \\
+stack := stack $\cup \{i + 1\}$\\
+ans[i] = stackのsize()         \\
+}
+\end{flalign}
+```
